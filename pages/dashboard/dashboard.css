@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+}
+header {
+  height: 56px;
+  background-color: #e6eef5;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.right-navbar-menu {
+  display: flex;
+}
+.logo {
+  width: 43px;
+  height: 43px;
+  padding: 5px;
+}
+.brand-title {
+  font-size: 26px;
+  line-height: 40.63px;
+  font-weight: 400;
+  color: #003565;
+  padding: 10px 8px;
+}
+.brand-Area {
+  display: flex;
+}
+.brand-title::after {
+  content: "|";
+  margin-right: 10px;
+  opacity: 20%;
+  width: 24px;
+  border: 1px 0px 0px 0px;
+}
+.company-btn {
+  width: 105px;
+  height: 28px;
+  margin: 16px 8px;
+  border-radius: 4px;
+  background-color: #faf9fb;
+  color: #003565;
+  border: 1px solid #003565;
+  box-shadow: 0px 4px 9.2px 0px #00000054;
+  cursor: pointer;
+}
+.year-btn {
+  width: 61px;
+  height: 28px;
+  margin: 16px 0px;
+  border-radius: 4px;
+  background-color: #faf9fb;
+  color: #003565;
+  border: 1px solid #003565;
+  box-shadow: 0px 4px 9.2px 0px #00000054;
+  cursor: pointer;
+}
+.Fiscal-year {
+  display: flex;
+}
+.yaer {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  margin: 16px 0px 0px 10px;
+  color: #003565;
+}
+.money-icon {
+  width: 18px;
+  height: 18px;
+  margin: 22px 8px 0px 6px;
+}
+.left-navbar-menu {
+  height: 28px;
+  top: 14px;
+  left: 16px;
+  gap: 16px;
+  opacity: 0px;
+}
+.left-nav-unit {
+  display: flex;
+}
+
+.left-nav-unit-item {
+  list-style-type: none;
+  margin: 16px 8px;
+}
+.nav-unit-item-link {
+  cursor: pointer;
+}
+.nav-unit-icon {
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+  color: #006bcb;
+  border-left: 1px solid rgb(223, 221, 221);
+}
+.user-unit-icon {
+  width: 49px;
+  height: 28px;
+}
+.sidebar-nav {
+  width: 52px;
+  height: 960px;
+  background-color: #006bcb;
+}
+.sideNave-list {
+  padding: 8px 16px;
+}
+.sideNav-list-item {
+  list-style-type: none;
+  margin: 16px 0;
+}
+.sideNav-icon {
+  width: 20px;
+  height: 20px;
+}
+.search-side-icon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 10px;
+}
