@@ -30,29 +30,19 @@
       <div class="left-navbar-menu">
         <ul class="left-nav-unit">
           <li class="left-nav-unit-item">
-            <a class="nav-unit-item-link"
-              ><img src="./img/zang.png" alt="" class="nav-unit-icon"
-            /></a>
+            <img src="./img/zang.png" alt="" class="nav-unit-icon" />
           </li>
           <li class="left-nav-unit-item">
-            <a class="nav-unit-item-link"
-              ><img src="./img/text.png" alt="" class="nav-unit-icon"
-            /></a>
+            <img src="./img/text.png" alt="" class="nav-unit-icon" />
           </li>
           <li class="left-nav-unit-item">
-            <a class="nav-unit-item-link"
-              ><img src="./img/search.png" alt="" class="nav-unit-icon"
-            /></a>
+            <img src="./img/search.png" alt="" class="nav-unit-icon" />
           </li>
           <li class="left-nav-unit-item">
-            <a class="nav-unit-item-link"
-              ><img src="./img/ask.png" alt="" class="nav-unit-icon"
-            /></a>
+            <img src="./img/ask.png" alt="" class="nav-unit-icon" />
           </li>
           <li class="left-nav-unit-item">
-            <a class="nav-unit-item-link"
-              ><img src="./img/user.png" alt="" class="user-unit-icon"
-            /></a>
+            <img src="./img/userimg.png" alt="" class="user-unit-icon" />
           </li>
         </ul>
       </div>
@@ -62,59 +52,43 @@
         <div class="sidebar-nav">
           <ul class="sideNave-list">
             <li class="sideNav-list-item">
-              <a href="" class="sideNav-list-item-link">
+              <button class="burger-menu" onclick="openNav()">
                 <img src="./img/menu.png" alt="" class="sideNav-icon" />
-              </a>
+              </button>
             </li>
             <li class="sideNav-list-item">
-              <a href="" class="sideNav-list-item-link">
-                <img
-                  src="./img/sidebarSearch.png"
-                  alt=""
-                  class="search-side-icon"
-                />
-              </a>
+              <img
+                src="./img/sidebarSearch.png"
+                alt=""
+                class="search-side-icon"
+              />
             </li>
             <li class="sideNav-list-item">
-              <a href="" class="sideNav-list-item-link">
-                <img src="./img/info.png" alt="" class="sideNav-icon" />
-              </a>
+              <img src="./img/info.png" alt="" class="sideNav-icon" />
             </li>
 
             <li class="sideNav-list-item">
-              <a href="" class="sideNav-list-item-link">
-                <img src="./img/calc.png" alt="" class="sideNav-icon" />
-              </a>
+              <img src="./img/calc.png" alt="" class="sideNav-icon" />
             </li>
             <li class="sideNav-list-item">
-              <a href="" class="sideNav-list-item-link">
-                <img src="./img/cash.png" alt="" class="sideNav-icon" />
-              </a>
+              <img src="./img/cash.png" alt="" class="sideNav-icon" />
             </li>
             <li class="sideNav-list-item">
-              <a href="" class="sideNav-list-item-link">
-                <img src="./img/check.png" alt="" class="sideNav-icon" />
-              </a>
+              <img src="./img/check.png" alt="" class="sideNav-icon" />
             </li>
             <li class="sideNav-list-item">
-              <a href="" class="sideNav-list-item-link">
-                <img src="./img/list.png" alt="" class="sideNav-icon" />
-              </a>
+              <img src="./img/list.png" alt="" class="sideNav-icon" />
             </li>
             <li class="sideNav-list-item">
-              <a href="" class="sideNav-list-item-link">
-                <img src="./img/pinfo.png" alt="" class="sideNav-icon" />
-              </a>
+              <img src="./img/pinfo.png" alt="" class="sideNav-icon" />
             </li>
             <li class="sideNav-list-item">
-              <a href="" class="sideNav-list-item-link">
-                <img src="./img/setting.png" alt="" class="sideNav-icon" />
-              </a>
+              <img src="./img/setting.png" alt="" class="sideNav-icon" />
             </li>
           </ul>
         </div>
-        <div class="sidebar-secondary">
-          <button class="return-btn">
+        <div class="sidebar-secondary" id="mySidenav">
+          <button class="return-btn" onclick="closeNav()">
             <img src="./img/return.png" alt="" class="return-icon" />
           </button>
 
@@ -131,100 +105,100 @@
           <div class="sidebar-subMenu">
             <ul class="seconadry-sidebar-list">
               <li class="secondary-list-item">
-                <a href="#" class="secondary-item-link"> اطلاعات پایه  </a>
-                  <button class="dropdown-btn">
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                </a>
+                اطلاعات پایه
+                <button class="dropdown-btn">
+                  <i class="fa fa-angle-left"></i>
+                </button>
+
                 <div class="dropdown-container">
                   <ul class="dropdown-submenu-list">
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
+                    <li class="dropdown-submenu-item">link 1</li>
+                    <li class="dropdown-submenu-item">link 1</li>
+                    <li class="dropdown-submenu-item">link 1</li>
                   </ul>
                 </div>
               </li>
               <li class="secondary-list-item">
-                <a href="#" class="secondary-item-link">  حسابداری  </a>
-                  <button class="dropdown-btn">
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                </a>
+                حسابداری
+                <button class="dropdown-btn">
+                  <i class="fa fa-angle-left"></i>
+                </button>
+
                 <div class="dropdown-container">
                   <ul class="dropdown-submenu-list">
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
+                    <li class="dropdown-submenu-item">link 1</li>
+                    <li class="dropdown-submenu-item">link 1</li>
+                    <li class="dropdown-submenu-item">link 1</li>
                   </ul>
                 </div>
               </li>
               <li class="secondary-list-item">
-                <a href="#" class="secondary-item-link"> دریافت و پرداخت   </a>
-                  <button class="dropdown-btn">
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                </a>
+                دریافت و پرداخت
+                <button class="dropdown-btn">
+                  <i class="fa fa-angle-left"></i>
+                </button>
+
                 <div class="dropdown-container">
                   <ul class="dropdown-submenu-list">
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
+                    <li class="dropdown-submenu-item">link 1</li>
+                    <li class="dropdown-submenu-item">link 1</li>
+                    <li class="dropdown-submenu-item">link 1</li>
                   </ul>
                 </div>
               </li>
               <li class="secondary-list-item">
-                <a href="#" class="secondary-item-link"> تدارکات و لجستیک   </a>
-                  <button class="dropdown-btn">
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                </a>
+                تدارکات و لجستیک
+                <button class="dropdown-btn">
+                  <i class="fa fa-angle-left"></i>
+                </button>
+
                 <div class="dropdown-container">
                   <ul class="dropdown-submenu-list">
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
+                    <li class="dropdown-submenu-item">link 1</li>
+                    <li class="dropdown-submenu-item">link 1</li>
+                    <li class="dropdown-submenu-item">link 1</li>
                   </ul>
                 </div>
               </li>
               <li class="secondary-list-item">
-                <a href="#" class="secondary-item-link"> مشتریان و فروش   </a>
-                  <button class="dropdown-btn">
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                </a>
+                مشتریان و فروش
+                <button class="dropdown-btn">
+                  <i class="fa fa-angle-left"></i>
+                </button>
+
                 <div class="dropdown-container">
                   <ul class="dropdown-submenu-list">
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
+                    <li class="dropdown-submenu-item">link 1</li>
+                    <li class="dropdown-submenu-item">link 1</li>
+                    <li class="dropdown-submenu-item">link 1</li>
                   </ul>
                 </div>
               </li>
               <li class="secondary-list-item">
-                <a href="#" class="secondary-item-link"> گزارشات   </a>
-                  <button class="dropdown-btn">
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                </a>
+                گزارشات
+                <button class="dropdown-btn">
+                  <i class="fa fa-angle-left"></i>
+                </button>
+
                 <div class="dropdown-container">
                   <ul class="dropdown-submenu-list">
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
+                    <li class="dropdown-submenu-item">link 1</li>
+                    <li class="dropdown-submenu-item">link 1</li>
+                    <li class="dropdown-submenu-item">link 1</li>
                   </ul>
                 </div>
               </li>
               <li class="secondary-list-item">
-                <a href="#" class="secondary-item-link">  تنظیمات  </a>
-                  <button class="dropdown-btn">
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                </a>
+                تنظیمات
+                <button class="dropdown-btn">
+                  <i class="fa fa-angle-left"></i>
+                </button>
+
                 <div class="dropdown-container">
                   <ul class="dropdown-submenu-list">
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
-                    <li class="dropdown-submenu-item"><a href="#" class="dropdown-submenu-link">link 1</a></li>
+                    <li class="dropdown-submenu-item">link 1</li>
+                    <li class="dropdown-submenu-item">link 1</li>
+                    <li class="dropdown-submenu-item">link 1</li>
                   </ul>
                 </div>
               </li>
