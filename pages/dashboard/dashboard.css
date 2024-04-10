@@ -220,11 +220,12 @@ aside {
   color: #818181;
   border: none;
   background: none;
-  width: 100%;
+  /* width: 100%; */
   cursor: pointer;
-  position: absolute;
+  /* position: absolute;
   right: 120px;
-  top: 2px;
+  top: 2px; */
+  margin-left: 16px;
 }
 
 /* On mouse-over */
@@ -278,3 +279,17 @@ aside {
 }
 .burger-menu-btn {
 }
+
+
+.link-menu{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+/* .link-menu .dropdown-btn i{
+  content: "\f104";
+}
+
+.active .dropdown-btn i{
+  content: "\f107";
+} */
