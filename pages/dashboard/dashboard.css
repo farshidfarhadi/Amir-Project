@@ -243,6 +243,7 @@ aside {
 .dropdown-container {
   display: none;
   padding-left: 8px;
+  padding-top: 5px;
 }
 
 /* Optional: Style the caret down icon */
@@ -266,6 +267,7 @@ aside {
 .dropdown-submenu-item {
   list-style-type: none;
   padding: 0;
+  padding-top: 5px;
 }
 .dropdown-submenu-link {
   line-height: 25px;

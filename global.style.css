@@ -7,3 +7,10 @@
 * {
   font-family: "Vazir";
 }
+
+/* input:focus{ border: none; } */
+
+textarea:focus, input:focus{
+  outline: 1px solid #006bcb;
+  /* border: 1px solid #006bcb; */
+}
