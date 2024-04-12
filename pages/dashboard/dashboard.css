@@ -109,6 +109,7 @@ header {
   width: 52px;
   height: 100vh;
   background-color: #006bcb;
+  z-index: 1;
 }
 .sideNave-list {
   padding: 8px 16px;
@@ -128,18 +129,27 @@ header {
   position: relative;
   left: 10px;
 }
+.sidebar-icon {
+  font-size: 20px;
+  background-color: #006bcb;
+  color: #e1e8ef;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+}
 .sidebar-secondary {
   height: 100vh;
   background-color: #e6eef5;
   box-shadow: 0px 4px 9.2px 0px #00000054;
   display: flex;
   flex-direction: column;
-  width: 0; /* 0 width - change this with JavaScript */
+  width: 320px; /* 0 width - change this with JavaScript */
   z-index: 1; /* Stay on top */
   top: 0x; /* Stay at the top */
   right: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
-  position: absolute;
 }
 .seconadry-sidebar-list {
   margin: 0;
