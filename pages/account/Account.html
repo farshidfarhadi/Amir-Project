@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>طرف حساب</title>
+    <link rel="stylesheet" href="../../global.style.css" />
+    <link
+      rel="stylesheet"
+      href="../../fontawesome-free-6.5.2-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../../css/bootstrap.rtl.css" />
+    <link rel="stylesheet" href="./account.css" />
+  </head>
+  <body dir="rtl">
+    <div class="container">
+      <header>
+        <button class="prev-bread"><i class="fa fa-angle-right"></i></button>
+        <div class="breadCrump-Area">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item custome-bread">
+                <a href="#" class="breadCrump-link">دوره مالی جدید</a>
+                <button class="breadCrump-btn">
+                  <i class="fa fa-xmark"></i>
+                </button>
+              </li>
+              <li class="breadcrumb-item custome-bread">
+                <a href="#" class="breadCrump-link">فهرست دوره مالی</a>
+                <button class="breadCrump-btn">
+                  <i class="fa fa-xmark"></i>
+                </button>
+              </li>
+              <li class="breadcrumb-item custome-bread" aria-current="page">
+                <a href="#" class="breadCrump-link"> طرف حساب جدید </a>
+                <button class="breadCrump-btn">
+                  <i class="fa fa-xmark"></i>
+                </button>
+              </li>
+            </ol>
+          </nav>
+        </div>
+        <button class="next-bread"><i class="fa fa-angle-left"></i></button>
+      </header>
+      <div class="account-content-wrapper">
+        <div class="content-header">
+          <button class="content-action-btn"><i class="fa fa-plus"></i></button>
+          <button class="content-action-btn">
+            <i class="fa fa-trash"></i>
+          </button>
+          <button class="content-action-btn" s>
+            <i class="fa fa-pen"></i>
+          </button>
+        </div>
+        <!--begin of account>asli>hoghooghi -->
+        <div class="main-content">
+          <div class="d-flex">
+            <select
+              class="form-select custome-select"
+              aria-label="Default select example"
+            >
+              <option selected>انتخاب کنید</option>
+              <option value="1">حقیقی</option>
+              <option value="2">حقوقی</option>
+            </select>
+            <ol class="breadcrumb main-header-breadCrump">
+              <li class="breadcrumb-item mx-3">
+                <span>نوع</span>
+              </li>
+              <span> > </span>
+              <li class="breadcrumb-item mx-3">
+                <span>حقوقی</span>
+              </li>
+            </ol>
+          </div>
+          <div class="company-info d-flex">
+            <div class="col-md-6">
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">نام شرکت:</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  نام شرکت را وارد کنید   "
+                />
+              </div>
+
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">شماره :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  شماره  را وارد کنید   "
+                />
+              </div>
+              <div class="col-12 my-2">
+                <label for="#" class="label-info"> نوع شرکت:</label>
+                <select name="" id="" class="info-select mx-1">
+                  <option value="#">نوع شرکت را انتخاب نمایید</option>
+                  <option value="#">1</option>
+                  <option value="#">2</option>
+                </select>
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">نام تجاری:</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  نام تجاری را وارد کنید   "
+                />
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">کد اقتصادی :</label>
+                <input
+                  type="email"
+                  class="info-input mx-1"
+                  placeholder="  ایمیل  را وارد کنید   "
+                />
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">تاریخ تاسیس :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  تاریخ تاسیس شرکت را وارد کنید   "
+                />
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">نام شرکت:</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  نام شرکت را وارد کنید   "
+                />
+              </div>
+              <div class="d-flex py-2 px-2">
+                <input type="checkbox" class="my-1 mx-1 my-checkbox" />
+                <label for="#" class="label-info"> فعال</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">نام شرکت 2 :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  نام شرکت 2 را وارد کنید   "
+                />
+              </div>
+
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">عنوان تفصیل :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  عنوان تفصیل 2 را وارد کنید  "
+                />
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info"> شناسه ملی :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  نوع شرکت شرکت را وارد کنید   "
+                />
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info"> نام تجاری 2 :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  نام تجاری 2 را وارد کنید   "
+                />
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">شماره ثبت :</label>
+                <input
+                  type="email"
+                  class="info-input mx-1"
+                  placeholder="  شماره ثبت  را وارد کنید   "
+                />
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info"> وب سایت :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="   وب سایت شرکت را وارد کنید   "
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end of account>asli>hoghooghi -->
+        <hr />
+        <!-- begin of asli>haghighi -->
+        <div class="content-header">
+          <button class="content-action-btn"><i class="fa fa-plus"></i></button>
+          <button class="content-action-btn">
+            <i class="fa fa-trash"></i>
+          </button>
+          <button class="content-action-btn">
+            <i class="fa fa-pen"></i>
+          </button>
+        </div>
+        <div class="main-content">
+          <div class="d-flex">
+            <select
+              class="form-select custome-select"
+              aria-label="Default select example"
+            >
+              <option selected>انتخاب کنید</option>
+              <option value="1">حقیقی</option>
+              <option value="2">حقوقی</option>
+            </select>
+            <ol class="breadcrumb main-header-breadCrump">
+              <li class="breadcrumb-item mx-3">
+                <span>نوع</span>
+              </li>
+              <span> > </span>
+              <li class="breadcrumb-item mx-3">
+                <span>حقیقی</span>
+              </li>
+            </ol>
+          </div>
+          <div class="company-info d-flex">
+            <div class="col-md-6">
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">نام :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  نام  را وارد کنید   "
+                />
+              </div>
+
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">نام خانوادگی :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  نام خانوادگی  را وارد کنید   "
+                />
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">نام تفصیلی:</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  نام تفصیلی را وارد کنید   "
+                />
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">شماره :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="   شماره را وارد کنید   "
+                />
+              </div>
+              <div class="col-12 my-2">
+                <label for="#" class="label-info"> جنسیت :</label>
+                <select name="" id="" class="info-select mx-1">
+                  <option value="#">جنسیت را انتخاب نمایید</option>
+                  <option value="#">زن</option>
+                  <option value="#">مرد</option>
+                </select>
+              </div>
+
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">کدملی :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="    کد ملی را وارد کنید   "
+                />
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">ایمیل :</label>
+                <input
+                  type="email"
+                  class="info-input mx-1"
+                  placeholder="  ایمیل  را وارد کنید   "
+                />
+              </div>
+              <div class="d-flex py-2 px-2">
+                <input type="checkbox" class="my-1 mx-1 my-checkbox" />
+                <label for="#" class="label-info"> فعال</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info">نام 2 :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  نام  2 را وارد کنید   "
+                />
+              </div>
+
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info"> نام خانوادگی :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  نام خانوادگی   را وارد کنید  "
+                />
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info"> نام تفصیلی 2 :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  نام تفصیلی 2   را وارد کنید   "
+                />
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info"> تاریخ ازدواج :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="  تاریخ ازدواج   را وارد کنید   "
+                />
+              </div>
+              <div class="col-12 my-2">
+                <label for="#" class="label-info"> پیشوند :</label>
+                <select name="" id="" class="info-select mx-1">
+                  <option value="#">انتخاب نمایید</option>
+                  <option value="#">1</option>
+                  <option value="#">2</option>
+                </select>
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info"> تاریخ تولد :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="   تاریخ تولد   را وارد کنید   "
+                />
+              </div>
+              <div class="col-12 option-info my-2">
+                <label for="#" class="label-info"> وب سایت :</label>
+                <input
+                  type="text"
+                  class="info-input mx-1"
+                  placeholder="    وب سایت   را وارد کنید   "
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end of asli>haghighi -->
+
+        <hr />
+        <!-- begin of account>role -->
+        <div class="role-container">
+          <div class="content-header">
+            <button class="content-action-btn">
+              <i class="fa fa-plus"></i>
+            </button>
+            <button class="content-action-btn">
+              <i class="fa fa-trash"></i>
+            </button>
+          </div>
+          <div class="role-table-area">
+            <table dir="rtl">
+              <tr>
+                <th colspan="1" style="width: 5%">#</th>
+                <th colspan="1" style="width: 20%">شماره</th>
+                <th colspan="1" style="width: 70%">
+                  عنوان
+                  <button class="thead-btn">
+                    <i class="fa fa-plus"></i>
+                  </button>
+                </th>
+                <th colspan="1" style="width: 5%">#</th>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                </td>
+                <td>1</td>
+                <td>1</td>
+                <td>
+                  <button class="table-action-btn">
+                    <i class="fa fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                </td>
+                <td>1</td>
+                <td>1</td>
+                <td>
+                  <button class="table-action-btn">
+                    <i class="fa fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                </td>
+                <td>1</td>
+                <td>1</td>
+                <td>
+                  <button class="table-action-btn">
+                    <i class="fa fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                </td>
+                <td>1</td>
+                <td>1</td>
+                <td>
+                  <button class="table-action-btn">
+                    <i class="fa fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+            </table>
+            <div class="table-info d-flex my-3">
+              <label for="#"> نمایش تعداد ردیف</label>
+              <button class="light-btn">
+                <span>25</span>
+              </button>
+              <p>نمایش صفحه <span>1 </span>از <span>1 </span></p>
+            </div>
+          </div>
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+          <div class="action-area">
+            <button class="guide-btn d-flex">
+              <i class="fa fa-question-circle quide-icon"></i>
+              راهنما
+            </button>
+
+            <div class="actions-btn">
+              <button class="create-btn">
+                <i class="fa fa-save"></i>
+                ثبت
+              </button>
+              <button class="create-btn-new">
+                <i class="fa fa-save"></i>
+                ثبت و جدید
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- end of account>role -->
+        <hr />
+        <!-- begin of account>information -->
+
+        <div class="account-info">
+          <div class="content-header">
+            <button class="content-action-btn">
+              <i class="fa fa-plus"></i>
+            </button>
+            <button class="content-action-btn">
+              <i class="fa fa-trash"></i>
+            </button>
+          </div>
+          <table dir="rtl">
+            <tr>
+              <th>#</th>
+              <th>
+                بانک
+                <button class="thead-btn">
+                  <i class="fa fa-plus"></i>
+                </button>
+              </th>
+              <th>نوع حساب بانک</th>
+              <th>نام شعبه</th>
+              <th>کد شعبه</th>
+              <th>نام صاحب حساب</th>
+              <th>شماره حساب</th>
+              <th>شماره کارت</th>
+              <th>شماره شبا</th>
+              <th>#</th>
+            </tr>
+            <tr>
+              <td>test</td>
+              <td>test</td>
+              <td>test</td>
+              <td>test</td>
+              <td>test</td>
+              <td>test</td>
+              <td>test</td>
+              <td>test</td>
+              <td>test</td>
+              <td>
+                <button class="table-action-btn">
+                  <i class="fa fa-trash"></i>
+                </button>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="accountInfo-action-area">
+          <button class="guide-btn d-flex">
+            <i class="fa fa-question-circle quide-icon"></i>
+            راهنما
+          </button>
+
+          <div class="actions-btn">
+            <button class="create-btn">
+              <i class="fa fa-save"></i>
+              ثبت
+            </button>
+            <button class="create-btn-new">
+              <i class="fa fa-save"></i>
+              ثبت و جدید
+            </button>
+          </div>
+        </div>
+        <!-- end of account>information -->
+
+        <hr />
+        <!-- begin of contact>information -->
+        <div class="contact-info">
+          <div class="content-header">
+            <button class="content-action-btn">
+              <i class="fa fa-plus"></i>
+            </button>
+            <button class="content-action-btn">
+              <i class="fa fa-trash"></i>
+            </button>
+          </div>
+          <div class="d-flex">
+            <select
+              class="form-select custome-select"
+              aria-label="Default select example"
+            >
+              <option selected>اطلاعات تماس</option>
+              <option value="1">آدرس</option>
+              <option value="2">تلفن</option>
+            </select>
+            <ol class="breadcrumb main-header-breadCrump">
+              <li class="breadcrumb-item mx-3">
+                <span>اطلاعات تماس</span>
+              </li>
+              <span> > </span>
+              <li class="breadcrumb-item mx-3">
+                <span>آدرس</span>
+              </li>
+            </ol>
+          </div>
+          <table dir="rtl">
+            <tr>
+              <th colspan="1" style="width: 5%">#</th>
+              <th colspan="1" style="width: 20%">
+                نوع
+                <button class="thead-btn">
+                  <i class="fa fa-plus"></i>
+                </button>
+              </th>
+              <th colspan="1" style="width: 70%">شماره تلفن</th>
+              <th colspan="1" style="width: 5%">#</th>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                />
+              </td>
+              <td>1</td>
+              <td>1</td>
+              <td>
+                <button class="table-action-btn">
+                  <i class="fa fa-trash"></i>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                />
+              </td>
+              <td>1</td>
+              <td>1</td>
+              <td>
+                <button class="table-action-btn">
+                  <i class="fa fa-trash"></i>
+                </button>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="action-area">
+          <button class="guide-btn d-flex">
+            <i class="fa fa-question-circle quide-icon"></i>
+            راهنما
+          </button>
+
+          <div class="actions-btn">
+            <button class="create-btn">
+              <i class="fa fa-save"></i>
+              ثبت
+            </button>
+            <button class="create-btn-new">
+              <i class="fa fa-save"></i>
+              ثبت و جدید
+            </button>
+          </div>
+        </div>
+        <hr />
+        <div class="complate-data">
+          <div class="content-header">
+            <button class="content-action-btn">
+              <i class="fa fa-plus"></i>
+            </button>
+            <button class="content-action-btn">
+              <i class="fa fa-trash"></i>
+            </button>
+          </div>
+          <table dir="rtl">
+            <tr>
+              <th>عنوان</th>
+              <th>مقدار</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>1</td>
+            </tr>
+          </table>
+        </div>
+        <div class="action-area">
+          <button class="guide-btn d-flex">
+            <i class="fa fa-question-circle quide-icon"></i>
+            راهنما
+          </button>
+
+          <div class="actions-btn">
+            <button class="create-btn">
+              <i class="fa fa-save"></i>
+              ثبت
+            </button>
+            <button class="create-btn-new">
+              <i class="fa fa-save"></i>
+              ثبت و جدید
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../../js/bootstrap.js"></script>
+  <script src="../../script.js"></script>
+</html>
