@@ -17,13 +17,17 @@ for (i = 0; i < dropdown.length; i++) {
     }
   });
 }
+var LeftWidth = document.getElementById("content-shower").style.width;
+var RightWidth = document.getElementById("sydebar").style.width;
 
 function openNav() {
   document.getElementById("mySidenav").style.width = "332px";
+  document.getElementById("content-shower").style.right = "332px";
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0px";
+  document.getElementById("content-shower").style.right = "0px";
 }
 
 $(document).ready(function () {

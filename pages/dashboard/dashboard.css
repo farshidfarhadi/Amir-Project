@@ -12,8 +12,9 @@ header {
   display: flex;
   justify-content: space-between;
 }
-aside {
+.my-sydebar {
   display: flex;
+  position: relative;
 }
 .right-navbar-menu {
   display: flex;
@@ -135,9 +136,14 @@ aside {
   flex-direction: column;
   width: 0; /* 0 width - change this with JavaScript */
   z-index: 1; /* Stay on top */
-  top: 56px; /* Stay at the top */
-  right: 52px;
+  top: 0x; /* Stay at the top */
+  right: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
+  position: absolute;
+}
+.seconadry-sidebar-list {
+  margin: 0;
+  padding: 0 20px;
 }
 .return-icon {
   width: 15px;
