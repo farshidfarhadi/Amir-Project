@@ -119,6 +119,7 @@ aside {
 .sideNav-icon {
   width: 20px;
   height: 20px;
+  color: #003565;
 }
 .search-side-icon {
   width: 40px;
@@ -133,7 +134,6 @@ aside {
   display: flex;
   flex-direction: column;
   width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 56px; /* Stay at the top */
   right: 52px;
@@ -143,20 +143,19 @@ aside {
   width: 15px;
   height: 15px;
   color: #006bcb;
+  justify-content: left;
+  margin: 8px 16px;
 }
 .return-btn {
-  width: 16px;
+  width: 100%;
   height: 16px;
   text-align: center;
   padding: 4px;
   background-color: #e6eef5;
   border: none;
-
   cursor: pointer;
-  position: absolute;
-  top: 10px;
-  left: 16px;
   margin-bottom: 16px;
+  text-align: left;
 }
 .search-form {
   padding: 10px;
@@ -231,8 +230,9 @@ aside {
 /* On mouse-over */
 
 /* Main content */
-.main {
+main {
   margin-left: 200px; /* Same as the width of the sidenav */
+  display: flex;
 }
 
 /* Add an active class to the active dropdown button */
@@ -282,16 +282,11 @@ aside {
 .burger-menu-btn {
 }
 
-
-.link-menu{
+.link-menu {
   display: flex;
   justify-content: space-between;
   cursor: pointer;
 }
-/* .link-menu .dropdown-btn i{
-  content: "\f104";
+.content-shower {
+  width: max-content;
 }
-
-.active .dropdown-btn i{
-  content: "\f107";
-} */

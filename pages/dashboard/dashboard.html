@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./dashboard.css" />
     <title>داشبورد</title>
   </head>
+
   <body dir="rtl">
     <header>
       <div class="right-navbar-menu">
@@ -47,7 +48,7 @@
         </ul>
       </div>
     </header>
-    <main>
+    <main class="d-flex">
       <aside>
         <div class="sidebar-nav">
           <ul class="sideNave-list">
@@ -55,35 +56,6 @@
               <button class="burger-menu" onclick="openNav()">
                 <img src="./img/menu.png" alt="" class="sideNav-icon" />
               </button>
-            </li>
-            <li class="sideNav-list-item">
-              <img
-                src="./img/sidebarSearch.png"
-                alt=""
-                class="search-side-icon"
-              />
-            </li>
-            <li class="sideNav-list-item">
-              <img src="./img/info.png" alt="" class="sideNav-icon" />
-            </li>
-
-            <li class="sideNav-list-item">
-              <img src="./img/calc.png" alt="" class="sideNav-icon" />
-            </li>
-            <li class="sideNav-list-item">
-              <img src="./img/cash.png" alt="" class="sideNav-icon" />
-            </li>
-            <li class="sideNav-list-item">
-              <img src="./img/check.png" alt="" class="sideNav-icon" />
-            </li>
-            <li class="sideNav-list-item">
-              <img src="./img/list.png" alt="" class="sideNav-icon" />
-            </li>
-            <li class="sideNav-list-item">
-              <img src="./img/pinfo.png" alt="" class="sideNav-icon" />
-            </li>
-            <li class="sideNav-list-item">
-              <img src="./img/setting.png" alt="" class="sideNav-icon" />
             </li>
           </ul>
         </div>
@@ -104,26 +76,24 @@
           </form>
           <div class="sidebar-subMenu">
             <ul class="seconadry-sidebar-list">
-              <li class="secondary-list-item">
+              <li class="secondary-list-item d-flex">
                 <p class="link-menu">
-                  <span>
-                    اطلاعات پایه
-                  </span>
-                 
+                  <button>
+                    <i class="fa fa-info"></i>
+                  </button>
+                  <span> اطلاعات پایه </span>
+
                   <span class="dropdown-btn">
                     <i class="fa fa-angle-left"></i>
                   </span>
                 </p>
-                
 
                 <div class="dropdown-container">
                   <ul class="dropdown-submenu-list">
                     <li class="dropdown-submenu-item">
                       <p class="link-menu">
-                        <span>
-                          زیرعنوان
-                        </span>
-                       
+                        <span> زیرعنوان </span>
+
                         <span class="dropdown-btn">
                           <i class="fa fa-angle-left"></i>
                         </span>
@@ -135,7 +105,6 @@
                           <li class="dropdown-submenu-item">3</li>
                         </ul>
                       </div>
-
                     </li>
                     <li class="dropdown-submenu-item">link 1</li>
                     <li class="dropdown-submenu-item">link 1</li>
@@ -144,15 +113,15 @@
               </li>
               <li class="secondary-list-item">
                 <p class="link-menu">
-                  <span>
-                    حسابداری
-                  </span>
-                  
+                  <button>
+                    <i class="fa fa-info"></i>
+                  </button>
+                  <span> حسابداری </span>
+
                   <span class="dropdown-btn">
                     <i class="fa fa-angle-left"></i>
                   </span>
                 </p>
-               
 
                 <div class="dropdown-container">
                   <ul class="dropdown-submenu-list">
@@ -164,16 +133,15 @@
               </li>
               <li class="secondary-list-item">
                 <p class="link-menu">
-                  <span>
-                    دریافت و پرداخت
-                  </span>
-                 
+                  <button>
+                    <i class="fa fa-info"></i>
+                  </button>
+                  <span> دریافت و پرداخت </span>
+
                   <span class="dropdown-btn">
                     <i class="fa fa-angle-left"></i>
                   </span>
                 </p>
-
-              
 
                 <div class="dropdown-container">
                   <ul class="dropdown-submenu-list">
@@ -185,16 +153,15 @@
               </li>
               <li class="secondary-list-item">
                 <p class="link-menu">
-                  <span>
-                    تدارکات و لجستیک
-                  </span>
-                 
+                  <button>
+                    <i class="fa fa-info"></i>
+                  </button>
+                  <span> تدارکات و لجستیک </span>
+
                   <span class="dropdown-btn">
                     <i class="fa fa-angle-left"></i>
                   </span>
                 </p>
-
-                
 
                 <div class="dropdown-container">
                   <ul class="dropdown-submenu-list">
@@ -206,16 +173,15 @@
               </li>
               <li class="secondary-list-item">
                 <p class="link-menu">
-                  <span>
-                    مشتریان و فروش
-                  </span>
-                  
+                  <button>
+                    <i class="fa fa-info"></i>
+                  </button>
+                  <span> مشتریان و فروش </span>
+
                   <span class="dropdown-btn">
                     <i class="fa fa-angle-left"></i>
                   </span>
                 </p>
-
-               
 
                 <div class="dropdown-container">
                   <ul class="dropdown-submenu-list">
@@ -227,16 +193,15 @@
               </li>
               <li class="secondary-list-item">
                 <p class="link-menu">
-                  <span>
-                    گزارشات
-                  </span>
-                  
+                  <button>
+                    <i class="fa fa-info"></i>
+                  </button>
+                  <span> گزارشات </span>
+
                   <span class="dropdown-btn">
                     <i class="fa fa-angle-left"></i>
                   </span>
                 </p>
-
-                
 
                 <div class="dropdown-container">
                   <ul class="dropdown-submenu-list">
@@ -248,16 +213,15 @@
               </li>
               <li class="secondary-list-item">
                 <p class="link-menu">
-                  <span>
-                    تنظیمات
-                  </span>
-                  
+                  <button>
+                    <i class="fa fa-info"></i>
+                  </button>
+                  <span> تنظیمات </span>
+
                   <span class="dropdown-btn">
                     <i class="fa fa-angle-left"></i>
                   </span>
                 </p>
-
-                
 
                 <div class="dropdown-container">
                   <ul class="dropdown-submenu-list">
@@ -271,6 +235,9 @@
           </div>
         </div>
       </aside>
+      <div id="content-shower">
+        <h1>فرشید فرهادی</h1>
+      </div>
     </main>
   </body>
   <script src="../../script.js"></script>

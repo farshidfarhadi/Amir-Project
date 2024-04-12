@@ -31,11 +31,12 @@ header {
 }
 .breadCrump-Area {
   border: 1px solid #e1e5ec;
-
   width: 90%;
   height: 34px;
   padding: 4px 0 4px 0;
   border-radius: 26px;
+  display: flex;
+  margin-bottom: 8px;
 }
 .custome-bread {
   display: flex;
